@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/kubernetes-1.yml'
-      - 'kubernetes/main.sh'
+      - 'kubernetes/hello_world_1/main.sh'
   workflow_dispatch:
 
 jobs:
