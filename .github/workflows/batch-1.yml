@@ -1,0 +1,20 @@
+name: Batch 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/batch-1.yml'
+      - 'batch/hello_world_1/**'
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: Run
+    runs-on: windows-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Hello World!!
+        run: .\batch\hello_world_1\main.bat

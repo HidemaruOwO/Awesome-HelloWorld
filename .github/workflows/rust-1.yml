@@ -1,0 +1,31 @@
+name: Rust 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/rust-1.yml'
+      - 'rust/hello_world_1/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Rust 1
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup latest Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+
+      - name: Build
+        run: |
+          cd ./rust/hello_world_1/
+          cargo build
+
+      - name: Hello World!!
+        run: ./rust/hello_world_1/target/debug/hello_world_1
