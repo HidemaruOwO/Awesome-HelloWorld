@@ -3,8 +3,8 @@ name: TypeScript 1
 on:
   push:
     paths:
-      - '.github/worlflows/go-1.yml'
-      - 'go/hello_world_1/**'
+      - '.github/worlflows/ts-1.yml'
+      - 'ts/hello_world_1/**'
   workflow_dispatch:
 
 jobs:
