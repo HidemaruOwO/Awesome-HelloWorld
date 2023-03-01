@@ -6,3 +6,7 @@
 #   バイナリ: https://sourceforge.net/projects/fbc/files/FreeBASIC-1.09.0/
 
 fbc -lang fblite main.bas
+
+# コンパイル済バイナリが ./main として生成されます
+
+./main

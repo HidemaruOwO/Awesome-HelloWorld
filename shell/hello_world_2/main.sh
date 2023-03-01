@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 nc -p 8000 -lN << EOF > /dev/null &
 HTTP/1.0 200 OK
