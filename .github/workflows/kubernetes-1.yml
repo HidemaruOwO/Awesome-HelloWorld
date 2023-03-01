@@ -15,17 +15,6 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v3
-
-      #- name: Hello World!!
-      #  uses: docker://docker
-      #  with:
-      #    args: sh -xc "
-      #      wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 &&
-      #      install minikube-linux-amd64 /usr/local/bin/minikube &&
-      #      chmod 777 /var/run/docker.sock &&
-      #      adduser -D myuser &&
-      #      su myuser -c 'minikube start' &&
-      #      sh /github/workspace/kubernetes/hello_world_1/main.sh"
       - name: Start minikube
         uses: medyagh/setup-minikube@master
       - name: Hello World!!
