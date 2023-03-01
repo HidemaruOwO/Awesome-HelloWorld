@@ -25,7 +25,7 @@ jobs:
           cache-dependency-path: python/hello_world_6/requirements.txt
 
       - name: Install dependencies
-        run: pip3 install uvicorn fastapi psutil
+        run: pip3 install uvicorn fastapi psutil requests
 
       - name: Hello World!!
         run: ./python/hello_world_6/main.py
