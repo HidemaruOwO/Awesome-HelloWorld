@@ -7,6 +7,7 @@ app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
 
 @app.get("/")
 async def hello():
+    print("Hello World!!")
     return "Hello World!!"
 
 uvicorn.run(app, host="127.0.0.1", port=8000)
