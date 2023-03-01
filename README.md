@@ -42,6 +42,7 @@ I send my dear appreciation to them.
 - Python - [@Shiumano](https://github.com/Shiumano)
 - Elixir - [@Comamoca](https://github.com/Comamoca)
 - Nim - [@lafixier](https://github.com/lafixier)
+- Kotlin - [@turtton](https://github.com/turtton)
 
 ### Status ✅
 [![Batch 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml)
@@ -65,3 +66,5 @@ I send my dear appreciation to them.
 [![Nim 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nim-1.yaml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nim-1.yaml)
 [![Assembly amd64_linux 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/asm_amd64_linux-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/asm_amd64_linux-1.yml)
 [![Elixir 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/elixir-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/elixir-1.yml)
+[![Kotlin 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kotlin-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kotlin-1.yml)
+[![Kotlin 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kotlin-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kotlin-2.yml)
