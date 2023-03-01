@@ -1,10 +1,10 @@
-name: Python 3
+name: Python 5
 
 on:
   push:
     paths:
-      - '.github/workflows/python-3.yml'
-      - 'python/hello_world_3/**'
+      - '.github/workflows/python-5.yml'
+      - 'python/hello_world_5/**'
   workflow_dispatch:
 
 jobs:
@@ -22,4 +22,4 @@ jobs:
           check-latests: true
 
       - name: Hello World!!
-        run: ./python/hello_world_3/main.py World\!
+        run: ./python/hello_world_5/main.py
