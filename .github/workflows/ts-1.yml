@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - '.github/worlflows/ts-1.yml'
-      - 'ts/hello_world_1/**'
+      - 'typescript/hello_world_1/**'
   workflow_dispatch:
 
 jobs:
