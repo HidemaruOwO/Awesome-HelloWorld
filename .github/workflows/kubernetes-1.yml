@@ -20,12 +20,9 @@ jobs:
         uses: docker://docker
         with:
           args: sh -xc "
-            adduser -D myuser &&
-            chmod 777 /var/run/docker.sock &&
-            su myuser -pc 'env;docker run hello-world' &&
             wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 &&
             install minikube-linux-amd64 /usr/local/bin/minikube &&
+            chmod 777 /var/run/docker.sock &&
+            adduser -D myuser &&
             su myuser -c 'minikube start' &&
             sh /github/workspace/kubernetes/hello_world_1/main.sh"
-            #addgroup docker &&
-            #adduser myuser docker &&
