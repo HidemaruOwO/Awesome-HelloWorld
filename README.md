@@ -21,6 +21,8 @@ While it is not strictly necessary, if you plan to contribute to this repository
 ## Contributors 🙋‍♂️
 
 I send my dear appreciation to them.
+
+- Workflows Support - [@s1204IT](https://github.com/s1204IT)
 - Assembly amd64_linux - [@tomiy-tomiylab](https://github.com/tomiy-tomiylab)
 - Batch - [@s1204IT](https://github.com/s1204IT)
 - Java - [@s1204IT](https://github.com/s1204IT)
@@ -61,3 +63,4 @@ I send my dear appreciation to them.
 [![JavaScript 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/js-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/js-1.yml)
 [![Nim 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nim-1.yaml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nim-1.yaml)
 [![Assembly amd64_linux 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/asm_amd64_linux-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/asm_amd64_linux-1.yml)
+[![Elixir 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/elixir-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/elixir-1.yml)
