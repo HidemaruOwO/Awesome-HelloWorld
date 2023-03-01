@@ -73,4 +73,4 @@ I send my dear appreciation to them.
 [![Kotlin 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kotlin-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kotlin-1.yml)
 [![Kotlin 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kotlin-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kotlin-2.yml)
 [![Vim 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/vim-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/vim-1.yml)
-[![Vim 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml)
+[![Docker 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml)
