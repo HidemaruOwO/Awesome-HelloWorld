@@ -27,7 +27,10 @@ I send my dear appreciation to them.
 - PowerShell - [@s1204IT](https://github.com/s1204IT)
 - sh - [@s1204IT](https://github.com/s1204IT)
 - Rust - [@HidemaruOwO](https://github.com/HidemaruOwO)
+- Rust - [@WinLinux1028](https://github.com/WinLinux1028)
 - TypeScript - [@HidemaruOwO](https://github.com/HidemaruOwO)
+- JavaScrpt - [@MWindows99](https://github.com/MWindows99)
+- HTML - [@Shiumano](https://github.com/Shiumano)
 - Python - [@MWindows99](https://github.com/MWindows99)
 - Python - [@Shiumano](https://github.com/Shiumano)
 - Elixir - [@Comamoca](https://github.com/Comamoca)
@@ -41,9 +44,13 @@ I send my dear appreciation to them.
 [![Python 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pyhon-2.yml)
 [![Python 3](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-3.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pyhon-3.yml)
 [![Python 4](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-4.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pyhon-4.yml)
+[![Python 5](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-4.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pyhon-5.yml)
 [![Rust 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml)
 [![Rust 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml)
+[![Rust 3](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-3.yml)
 [![Shell 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/shell-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/shell-1.yml)
+[![TypeScript 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ts-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ts-1.yml)
+[![JavaScript 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/js-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/js-1.yml)
 
 
 
