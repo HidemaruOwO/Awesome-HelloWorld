@@ -1,0 +1,33 @@
+name: BASIC 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/basic-1.yml'
+      - 'basic/hello_world_1/main.bas'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-20.04
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install FreeBASIC Compiler
+        run: |
+          curl -L# https://sourceforge.net/projects/fbc/files/FreeBASIC-1.09.0/Binaries-Linux/ubuntu-20.04/FreeBASIC-1.09.0-ubuntu-20.04-x86_64.tar.gz/download -o FreeBASIC-1.09.0-ubuntu-20.04-x86_64.tar.gz
+          tar -zxvf ./FreeBASIC-1.09.0-ubuntu-20.04-x86_64.tar.gz
+          cd FreeBASIC-1.09.0-ubuntu-20.04-x86_64
+          sudo ./install.sh -i
+
+      - name: Install Dependency
+        run: sudo apt-get install -y lib32ncurses5-dev
+
+      - name: Build
+        run: fbc -lang fblite basic/hello_world_1/main.bas
+
+      - name: Hello World!!
+        run: ./basic/hello_world_1/main

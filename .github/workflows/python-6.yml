@@ -1,0 +1,32 @@
+name: Python 6
+
+on:
+  push:
+    paths:
+      - '.github/workflows/python-6.yml'
+      - 'python/hello_world_6/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup latest Python
+        uses: actions/setup-python@v4
+        with:
+          check-latest: true
+          python-version: '3.x'
+          cache: 'pip'
+          cache-dependency-path: python/hello_world_6/requirements.txt
+
+      - name: Install dependencies
+        run: pip3 install uvicorn fastapi psutil requests
+
+      - name: Hello World!!
+        continue-on-error: true
+        run: ./python/hello_world_6/main.py

@@ -1,0 +1,22 @@
+name: Docker 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/docker-1.yml'
+      - 'docker/main.sh'
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Hello World!!
+        uses: docker://docker
+        with:
+          args: sh /github/workspace/docker/hello_world_1/main.sh

@@ -1,0 +1,42 @@
+name: Kotlin 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/kotlin-1.yml'
+      - 'kotlin/hello_world_1/**'
+  workflow_dispatch:
+
+jobs:
+  compile:
+    name: Compile
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper/dists
+          key: kotlin-1-${{ hashFiles('kotlin/hello_world_1/gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: kotlin-1-
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 11
+
+      - name: Build
+        run: |
+          cd kotlin/hello_world_1/
+          ./gradlew build
+
+      - name: Hello World!
+        run: |
+          cd kotlin/hello_world_1/
+          ./gradlew run

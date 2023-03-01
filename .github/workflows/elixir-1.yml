@@ -8,21 +8,17 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  build:
+    name: Build
     runs-on: ubuntu-latest
-    name: OTP ${{matrix.otp}} / Elixir ${{matrix.elixir}}
-    strategy:
-      matrix:
-        otp: ['20.3', '21.3', '22.2']
-        elixir: ['1.8.2', '1.9.4']
     steps:
+
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Elixir
-        uses: erlef/setup-beam@v1
-        with:
-          otp-version: ${{matrix.otp}}
-          elixir-version: ${{matrix.elixir}}
+
+      - name: Install Elixir
+        run: sudo apt-get install -y elixir
+
       - name: Hello World!!
         run: |
           cd ./elixir_lang/hello_world_1/
