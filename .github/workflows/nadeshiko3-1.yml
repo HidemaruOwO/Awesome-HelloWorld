@@ -3,13 +3,13 @@ name: Nadeshiko3-1
 on:
   push:
     paths:
-    - ".github/workflows/nadeshiko-1.yml"
-    - "nadeshiko3/main.nako3"
+    - '.github/workflows/nadeshiko3-1.yml'
+    - 'nadeshiko3/hello_world_1/**'
   workflow_dispatch:
   
 jobs:
   build:
-    name: build
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
