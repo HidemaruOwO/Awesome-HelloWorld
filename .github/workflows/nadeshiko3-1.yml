@@ -19,4 +19,4 @@ jobs:
         run: npm install -g nadesiko3
         
       - name: Hello World!
-        run: cnako3 ./nadeshiko3/main.nako3
+        run: cnako3 ./nadeshiko3/hello_world_1/main.nako3
