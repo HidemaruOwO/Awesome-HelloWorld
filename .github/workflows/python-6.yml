@@ -19,7 +19,10 @@ jobs:
       - name: Setup latest Python
         uses: actions/setup-python@v4
         with:
-          check-latests: true
+          check-latest: true
+          python-version: '3.x'
+          cache: 'pip'
+          cache-dependency-path: python/hello_world_6/requirements.txt
 
       - name: Install dependencies
         run: pip3 install uvicorn fastapi
