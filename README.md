@@ -49,7 +49,7 @@ I send my dear appreciation to them.
 - Vim - [@yabeenico](https://github.com/yabeenico)
 - Zig - [@r-mutax](https://github.com/r-mutax)
 - Docker - [@yabeenico](https://github.com/yabeenico)
-- Nadeshiko3 - [@zozonteq](https://github.com/zozonteq)
+- Go - [@ringosan1974](https://github.com/ringosan1974)
 
 ### Status ✅
 [![Batch 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml)
@@ -80,3 +80,4 @@ I send my dear appreciation to them.
 [![Zig 1](https://github.com/r-mutax/Awesome-HelloWorld/actions/workflows/zig-1.yml/badge.svg?event=push)](https://github.com/r-mutax/Awesome-HelloWorld/actions/workflows/zig-1.yml)
 [![Docker 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml)
 [![Nadeshiko3 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nadeshiko3-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nadeshiko3-1.yml)
+[![Go 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/go-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/go-1.yml)
