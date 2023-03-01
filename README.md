@@ -51,6 +51,7 @@ I send my dear appreciation to them.
 - Docker - [@yabeenico](https://github.com/yabeenico)
 - Nadeshiko3 - [@zozonteq](https://github.com/zozonteq)
 - Go - [@ringosan1974](https://github.com/ringosan1974)
+- Kubernetes - [@yabeenico](https://github.com/yabeenico)
 
 ### Status ✅
 [![Batch 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml)
@@ -82,3 +83,4 @@ I send my dear appreciation to them.
 [![Docker 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml)
 [![Nadeshiko3 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nadeshiko3-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nadeshiko3-1.yml)
 [![Go 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/go-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/go-1.yml)
+[![Kubernetes 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kubernetes-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kubernetes-1.yml)
