@@ -19,4 +19,4 @@ jobs:
       - name: Hello World!!
         uses: docker://docker
         with:
-          args: ls /
+          args: ls /github/workspace
