@@ -29,6 +29,7 @@ I send my dear appreciation to them.
 - Rust - [@HidemaruOwO](https://github.com/HidemaruOwO)
 - TypeScript - [@HidemaruOwO](https://github.com/HidemaruOwO)
 - Python - [@MWindows99](https://github.com/MWindows99)
+- Python - [@Shiumano](https://github.com/Shiumano)
 - Elixir - [@Comamoca](https://github.com/Comamoca)
 
 ### Status ✅
