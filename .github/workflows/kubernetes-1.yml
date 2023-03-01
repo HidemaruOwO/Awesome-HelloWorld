@@ -25,6 +25,5 @@ jobs:
             adduser -D myuser &&
             addgroup docker &&
             adduser myuser docker &&
-            su myuser &&
-            minikube start &&
+            su myuser -c 'minikube start' &&
             sh /github/workspace/kubernetes/hello_world_1/main.sh"
