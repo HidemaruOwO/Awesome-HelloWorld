@@ -28,5 +28,5 @@ jobs:
       #      sh /github/workspace/kubernetes/hello_world_1/main.sh"
       - name: Start minikube
         uses: medyagh/setup-minikube@master
-      - name: Try the cluster !
-        run: kubectl get pods -A
+      - name: Hello World!!
+        run: kubernetes/hello_world_1/main.sh
