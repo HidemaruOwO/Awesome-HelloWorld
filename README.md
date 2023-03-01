@@ -50,6 +50,7 @@ I send my dear appreciation to them.
 [![Python 3](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-3.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pyhon-3.yml)
 [![Python 4](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-4.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pyhon-4.yml)
 [![Python 5](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-5.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pyhon-5.yml)
+[![Python 6](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-6.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pyhon-6.yml)
 [![Rust 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml)
 [![Rust 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml)
 [![Rust 3](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-3.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-3.yml)

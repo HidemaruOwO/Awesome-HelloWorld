@@ -1,10 +1,10 @@
-name: Python 3
+name: Python 6
 
 on:
   push:
     paths:
-      - '.github/workflows/python-3.yml'
-      - 'python/hello_world_3/**'
+      - '.github/workflows/python-6.yml'
+      - 'python/hello_world_6/**'
   workflow_dispatch:
 
 jobs:
@@ -21,5 +21,8 @@ jobs:
         with:
           check-latests: true
 
+      - name: Install dependencies
+        run: pip3 install uvicorn fastapi
+
       - name: Hello World!!
-        run: ./python/hello_world_3/main.py World\!
+        run: ./python/hello_world_6/main.py
