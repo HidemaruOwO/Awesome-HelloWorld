@@ -19,4 +19,4 @@ jobs:
       - name: Hello World!!
         uses: docker://docker
         with:
-          args: sh -c 'date' #' set -x && wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && install minikube-linux-amd64 /usr/local/bin/minikube && minikube start && sh /github/workspace/kubernetes/hello_world_1/main.sh '
+          args: sh -c 'date && date' #' set -x && wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && install minikube-linux-amd64 /usr/local/bin/minikube && minikube start && sh /github/workspace/kubernetes/hello_world_1/main.sh '
