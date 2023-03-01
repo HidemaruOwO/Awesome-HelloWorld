@@ -1,0 +1,32 @@
+name: Kotlin 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/kotlin-2.yml'
+      - 'kotlin/hello_world_2/**'
+  workflow_dispatch:
+
+jobs:
+  compile:
+    name: Compile
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 11
+
+      - name: Gradle Wrapper Validation
+        uses: gradle/wrapper-validation-action@v1
+
+      - name: Run
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: run
+          build-root-directory: kotlin/hello_world_2
