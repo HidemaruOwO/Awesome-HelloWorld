@@ -23,7 +23,11 @@ jobs:
           cd ./nim/hello_world_1/
           testament p 'tests/*.nim'
 
-      - name: Run "Hello World"
+      - name: Compile Hello World
         run: |
           cd ./nim/hello_world_1/
-          nim c -r src/main.nim
+          nim c -d:release src/main.nim
+      - name: Run Hello World
+        run: |
+          cd ./nim/hello_world_1/
+          ./src/main
