@@ -77,3 +77,4 @@ I send my dear appreciation to them.
 [![Vim 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/vim-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/vim-1.yml)
 [![Zig 1](https://github.com/r-mutax/Awesome-HelloWorld/actions/workflows/zig-1.yml/badge.svg)](https://github.com/r-mutax/Awesome-HelloWorld/actions/workflows/zig-1.yml)
 [![Docker 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/docker-1.yml)
+[![Nadeshiko3 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nadeshiko3-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nadeshiko3-1.yml)
