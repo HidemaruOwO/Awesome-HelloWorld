@@ -1,3 +1,4 @@
+#!/usr/bin/env 3.11
 ONE   = int(bool(bool))
 TWO   = ONE   + ONE
 THREE = TWO   + ONE
