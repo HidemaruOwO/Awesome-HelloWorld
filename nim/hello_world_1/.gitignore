@@ -1,0 +1,10 @@
+*
+!*/
+!*.*
+
+# testament
+nimcache/
+testresults/
+
+# Docker
+!Dockerfile
