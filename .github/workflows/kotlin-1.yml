@@ -16,17 +16,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper/dists
+          key: kotlin-1-${{ hashFiles('kotlin/hello_world_1/gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: kotlin-1-
+
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
           distribution: temurin
           java-version: 11
 
-      - name: Gradle Wrapper Validation
-        uses: gradle/wrapper-validation-action@v1
+      - name: Build
+        run: |
+          cd kotlin/hello_world_1/
+          ./gradlew build
 
-      - name: Run
-        uses: gradle/gradle-build-action@v2
-        with:
-          arguments: run
-          build-root-directory: kotlin/hello_world_1
+      - name: Hello World!
+        run: |
+          cd kotlin/hello_world_1/
+          ./gradlew run
