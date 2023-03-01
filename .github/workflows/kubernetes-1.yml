@@ -20,10 +20,10 @@ jobs:
         uses: docker://docker
         with:
           args: sh -xc "
-            docker run hello-world; exit
+            adduser -D myuser &&
+            su -c 'docker run hello-world' &&
             wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 &&
             install minikube-linux-amd64 /usr/local/bin/minikube &&
-            adduser -D myuser &&
             addgroup docker &&
             adduser myuser docker &&
             su myuser -c 'minikube start' &&
