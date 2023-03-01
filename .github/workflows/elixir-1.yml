@@ -16,12 +16,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Elixir
-        uses: erlef/setup-beam@v1
-        with:
-          otp-version: '22'
-          elixir-version: '1.9.1'
-          version-type: 'strict'
+      - name: Install Elixir
+        run: sudo apt-get install -y elixir
 
       - name: Build
         run: |
