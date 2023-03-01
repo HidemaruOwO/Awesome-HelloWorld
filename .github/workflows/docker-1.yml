@@ -19,4 +19,4 @@ jobs:
       - name: Hello World!!
         uses: docker://docker
         with:
-          entrypoint: /github/workspace/docker/main.sh
+          args: ['ls', '/']
