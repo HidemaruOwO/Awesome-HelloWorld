@@ -1,4 +1,4 @@
-<div align="center" >
+<div align="center">
   
 # Awesome-HelloWorld 😄
 
@@ -49,6 +49,7 @@ I send my dear appreciation to them.
 - Vim - [@yabeenico](https://github.com/yabeenico)
 - Zig - [@r-mutax](https://github.com/r-mutax)
 - Docker - [@yabeenico](https://github.com/yabeenico)
+- Nadeshiko3 - [@zozonteq](https://github.com/zozonteq)
 
 ### Status ✅
 [![Batch 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml)
