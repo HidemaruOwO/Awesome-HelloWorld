@@ -28,6 +28,4 @@ jobs:
         run: pip3 install uvicorn fastapi
 
       - name: Hello World!!
-        timeout-minutes: 1
-        continue-on-error: true
         run: ./python/hello_world_6/main.py
