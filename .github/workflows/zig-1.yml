@@ -24,4 +24,4 @@ jobs:
           version: master
 
       - name: Hello World!!
-        run: zig run ./zig/main.zig
+        run: zig run ./zig/hello_world_1/main.zig
