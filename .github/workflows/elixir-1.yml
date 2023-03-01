@@ -21,6 +21,7 @@ jobs:
         with:
           otp-version: '22'
           elixir-version: '1.9.1'
+          version-type: 'strict'
 
       - name: Build
         run: |
