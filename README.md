@@ -37,6 +37,7 @@ I send my dear appreciation to them.
 - JavaScrpt - [@MWindows99](https://github.com/MWindows99)
 - HTML - [@Shiumano](https://github.com/Shiumano)
 - C - [@Shiumano](https://github.com/Shiumano)
+- D - [@777shuang](https://github.com/777shuang)
 - Python - [@MWindows99](https://github.com/MWindows99)
 - Python - [@Shiumano](https://github.com/Shiumano)
 - Elixir - [@Comamoca](https://github.com/Comamoca)
