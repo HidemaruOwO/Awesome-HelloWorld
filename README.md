@@ -49,6 +49,7 @@ I send my dear appreciation to them.
 - Vim - [@yabeenico](https://github.com/yabeenico)
 - Zig - [@r-mutax](https://github.com/r-mutax)
 - Docker - [@yabeenico](https://github.com/yabeenico)
+- Nadeshiko3 - [@zozonteq](https://github.com/zozonteq)
 - Go - [@ringosan1974](https://github.com/ringosan1974)
 
 ### Status ✅
