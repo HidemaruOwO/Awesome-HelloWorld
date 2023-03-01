@@ -54,9 +54,7 @@ I send my dear appreciation to them.
 [![Rust 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml)
 [![Rust 3](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-3.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-3.yml)
 [![Shell 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/shell-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/shell-1.yml)
+[![Shell 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/shell-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/shell-2.yml)
 [![TypeScript 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ts-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ts-1.yml)
 [![JavaScript 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/js-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/js-1.yml)
 [![Nim 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nim-1.yaml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/nim-1.yaml)
-
-
-<!-- [![TypeScript 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ts-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ts-1.yml) -->
