@@ -28,6 +28,7 @@ I send my dear appreciation to them.
 - ShellScript - [@s1204IT](https://github.com/s1204IT)
 - ShellScript - [@Shiumano](https://github.com/Shiumano)
 - Basic - [@Shiumano](https://github.com/Shiumano)
+- Brainfuck - [@MWindows99](https://github.com/MWindows99)
 - Rust - [@HidemaruOwO](https://github.com/HidemaruOwO)
 - Rust - [@WinLinux1028](https://github.com/WinLinux1028)
 - TypeScript - [@HidemaruOwO](https://github.com/HidemaruOwO)
