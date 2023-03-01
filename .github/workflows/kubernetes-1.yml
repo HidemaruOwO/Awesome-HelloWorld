@@ -21,7 +21,7 @@ jobs:
         with:
           args: sh -xc "
             adduser -D myuser &&
-            su myuser -Ec 'docker run hello-world' &&
+            su myuser -pc 'docker run hello-world' &&
             wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 &&
             install minikube-linux-amd64 /usr/local/bin/minikube &&
             su myuser -c 'minikube start' &&
