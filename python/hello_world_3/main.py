@@ -1,46 +1,15 @@
-ONE   = int(bool(bool))
-TWO   = ONE   + ONE
-THREE = TWO   + ONE
-FOUR  = THREE + ONE
-FIVE  = FOUR  + ONE
-SIX   = FIVE  + ONE
-SEVEN = SIX   + ONE
-EIGHT = SEVEN + ONE
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-i = int()
+import sys
 
-i += TWO;   i <<= THREE
-i += TWO;   i <<= THREE
-i <<= THREE
-i += SIX;   i <<= THREE
-i += TWO;   i <<= THREE
-i += FIVE;  i <<= THREE
-i += FIVE;  i <<= THREE
-i += FOUR;  i <<= THREE
-i += THREE; i <<= THREE
-i += THREE; i <<= THREE
-i <<= THREE
-i += SIX;   i <<= THREE
-i += SEVEN; i <<= THREE
-i += FOUR;  i <<= THREE
-i += FOUR;  i <<= THREE
-i <<= THREE
-i += TWO;   i <<= THREE
-i += FIVE;  i <<= THREE
-i += SIX;   i <<= THREE
-i += SIX;   i <<= THREE
-i += SEVEN; i <<= THREE
-i += FIVE;  i <<= THREE
-i += SIX;   i <<= THREE
-i += TWO;   i <<= THREE
-i += THREE; i <<= THREE
-i += THREE; i <<= THREE
-i <<= THREE
-i += SIX;   i <<= THREE
-i += TWO;   i <<= THREE
-i <<= THREE
-i += FOUR;  i <<= THREE
-i += ONE
+def main(args):
+    name = args[1]
+    message = 'Hello {}!'.format(name)
 
-string = i.to_bytes(SIX*TWO).decode()
-print(string)
+    print(message)
+
+    return 0
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv))
