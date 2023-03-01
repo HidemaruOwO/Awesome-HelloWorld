@@ -1,0 +1,27 @@
+name: Kubernetes 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/kubernetes-1.yml'
+      - 'kubernetes/main.sh'
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Hello World!!
+        uses: docker://docker
+        with:
+          args: |-
+            set -x
+            wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+            install minikube-linux-amd64 /usr/local/bin/minikube
+            minikube start
+            sh /github/workspace/kubernetes/hello_world_1/main.sh
