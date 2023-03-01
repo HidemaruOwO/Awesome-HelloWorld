@@ -17,4 +17,4 @@ jobs:
       - name: Start minikube
         uses: medyagh/setup-minikube@master
       - name: Hello World!!
-        run: bash -xc kubernetes/hello_world_1/main.sh
+        run: bash -x kubernetes/hello_world_1/main.sh
