@@ -20,4 +20,8 @@ jobs:
         uses: docker://docker
         with:
           args: sh -xc "
-            wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && install minikube-linux-amd64 /usr/local/bin/minikube && minikube start && sh /github/workspace/kubernetes/hello_world_1/main.sh"
+            wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 &&
+            install minikube-linux-amd64 /usr/local/bin/minikube &&
+            minikube start &&
+            sh /github/workspace/kubernetes/hello_world_1/main.sh
+          "
