@@ -22,5 +22,10 @@ jobs:
           args: sh -xc "
             wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 &&
             install minikube-linux-amd64 /usr/local/bin/minikube &&
+            adduser -D myuser &&
+            addgroup docker &&
+            adduser myuser docker &&
+            usermod -aG sudo myuser &&
+            su myuser &&
             minikube start &&
             sh /github/workspace/kubernetes/hello_world_1/main.sh"
