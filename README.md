@@ -37,7 +37,11 @@ I send my dear appreciation to them.
 [![PowerShell 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pwsh-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pwsh-1.yml)
 [![PowerShell 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pwsh-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pwsh-2.yml)
 [![Python 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-1.yml)
+[![Python 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/pyhon-2.yml)
 [![Rust 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml)
 [![Rust 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml)
 [![Shell 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/shell-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/shell-1.yml)
+
+
+
 <!-- [![TypeScript 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ts-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ts-1.yml) -->
