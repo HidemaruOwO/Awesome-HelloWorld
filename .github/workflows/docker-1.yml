@@ -10,7 +10,9 @@ on:
 jobs:
   run:
     name: Run
-    runs-on: docker
+    runs-on: ubuntu-latest
+    container:
+      image: docker
     steps:
 
       - name: Checkout
