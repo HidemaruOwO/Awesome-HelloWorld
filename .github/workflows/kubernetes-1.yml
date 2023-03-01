@@ -21,10 +21,10 @@ jobs:
         with:
           args: sh -xc "
             adduser -D myuser &&
-            su -c 'docker run hello-world' &&
+            su myuser -c 'docker run hello-world' &&
             wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 &&
             install minikube-linux-amd64 /usr/local/bin/minikube &&
-            addgroup docker &&
-            adduser myuser docker &&
             su myuser -c 'minikube start' &&
             sh /github/workspace/kubernetes/hello_world_1/main.sh"
+            #addgroup docker &&
+            #adduser myuser docker &&
