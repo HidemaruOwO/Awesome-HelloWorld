@@ -1,0 +1,20 @@
+name: PowerShell 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/pwsh-1.yml'
+      - 'powershell/hello_world_1/**'
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: Run
+    runs-on: windows-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Hello World!!
+        run: powershell.exe -NoProfile -File .\powershell\hello_world_1\main.ps1 -ExecutionPolicy Bypass
