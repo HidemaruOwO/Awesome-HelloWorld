@@ -1,0 +1,20 @@
+name: Shell 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/vim-1.yml'
+      - 'vim/main.vim'
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Hello World!!
+        run: vim -es +'redir @a' +'source ./vim/main.vim' +'redir END' +'normal "ap' +%p +q!
