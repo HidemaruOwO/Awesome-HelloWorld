@@ -1,0 +1,22 @@
+name: nadeshiko-1
+
+on:
+  push:
+    paths:
+    - ".github/workflows/nadeshiko-1.yml"
+    - "nadeshiko3/main.nako3"
+  workflow_dispatch:
+  
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Install nadeshiko3
+        run: npm install -g nadesiko3
+        
+      - name: Hello World!
+        run: cnako3 ./nadeshiko3/main.nako3
