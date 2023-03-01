@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.11
+#!/usr/bin/env python3
 ONE   = int(bool(bool))
 TWO   = ONE   + ONE
 THREE = TWO   + ONE

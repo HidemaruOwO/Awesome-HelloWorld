@@ -19,7 +19,8 @@ jobs:
       - name: Setup latest Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11' 
+          check-latest: true
+          python-version: '3.x' 
 
       - name: Hello World!!
         run: ./python/hello_world_4/main.py

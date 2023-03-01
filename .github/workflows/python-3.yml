@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           check-latest: true
+          python-version: '3.x'
 
       - name: Hello World!!
         run: ./python/hello_world_3/main.py World\!
