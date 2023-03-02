@@ -4,8 +4,8 @@ on:
   push:
     paths:
       - '.github/workflows/shell-4.yml'
-      - 'c/hello_world_1/main.c'
-      - 'shell/hello_world_4/main.sh'
+      - 'c/hello_world_1/**'
+      - 'shell/hello_world_4/**'
   workflow_dispatch:
 
 jobs:
