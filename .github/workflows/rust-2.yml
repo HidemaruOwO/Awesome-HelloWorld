@@ -5,7 +5,6 @@ on:
     paths:
       - '.github/workflows/rust-2.yml'
       - 'rust/hello_world_2/**'
-  pull_request:
   workflow_dispatch:
 
 jobs:

@@ -5,7 +5,6 @@ on:
     paths:
       - '.github/workflows/kotlin-2.yml'
       - 'kotlin/hello_world_2/**'
-  pull_request:
   workflow_dispatch:
 
 jobs:

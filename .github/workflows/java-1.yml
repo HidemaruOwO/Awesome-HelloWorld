@@ -5,7 +5,6 @@ on:
     paths:
       - '.github/workflows/java-1.yml'
       - 'java/hello_world_1/**'
-  pull_request:
   workflow_dispatch:
 
 jobs:

@@ -6,7 +6,6 @@ on:
     paths:
       - '.github/workflows/brainfuck-1.yml'
       - 'brainfuck/hello_world_1/**'
-  pull_request:
   workflow_dispatch:
   
 jobs:

@@ -5,7 +5,6 @@ on:
     paths:
       - '.github/workflows/python-4.yml'
       - 'python/hello_world_4/**'
-  pull_request:
   workflow_dispatch:
 
 jobs:
