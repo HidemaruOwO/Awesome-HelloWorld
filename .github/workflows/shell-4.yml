@@ -1,0 +1,21 @@
+name: Shell 4
+
+on:
+  push:
+    paths:
+      - '.github/workflows/shell-4.yml'
+      - 'c/hello_world_1/main.c'
+      - 'shell/hello_world_4/main.sh'
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Hello World!!
+        run: ./shell/hello_world_4/main.sh
