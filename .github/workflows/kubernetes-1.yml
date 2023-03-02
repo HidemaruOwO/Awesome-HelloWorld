@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/kubernetes-1.yml'
       - 'kubernetes/hello_world_1/**'
+  pull_request:
   workflow_dispatch:
 
 jobs:

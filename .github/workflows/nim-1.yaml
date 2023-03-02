@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/nim-1.yaml"
       - "nim/hello_world_1/**"
+  pull_request:
   workflow_dispatch:
 
 jobs:

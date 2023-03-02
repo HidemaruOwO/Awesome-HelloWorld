@@ -5,6 +5,7 @@ on:
     paths:
     - '.github/workflows/nadeshiko3-1.yml'
     - 'nadeshiko3/hello_world_1/**'
+  pull_request:
   workflow_dispatch:
   
 jobs:

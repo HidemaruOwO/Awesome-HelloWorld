@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/batch-1.yml'
       - 'batch/hello_world_1/**'
+  pull_request:
   workflow_dispatch:
 
 jobs:

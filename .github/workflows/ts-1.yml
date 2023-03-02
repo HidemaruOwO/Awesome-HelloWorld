@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/worlflows/ts-1.yml'
       - 'typescript/hello_world_1/**'
+  pull_request:
   workflow_dispatch:
 
 jobs:

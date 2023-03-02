@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/asm_amd64_linux-1.yml'
       - 'asm_amd64_linux/hello_world_1/**'
+  pull_request:
   workflow_dispatch:
 
 jobs:

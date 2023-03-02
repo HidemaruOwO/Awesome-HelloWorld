@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/basic-1.yml'
       - 'basic/hello_world_1/main.bas'
+  pull_request:
   workflow_dispatch:
 
 jobs:

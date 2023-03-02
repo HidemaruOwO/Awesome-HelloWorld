@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/vim-1.yml'
       - 'vim/hello_world_1/**'
+  pull_request:
   workflow_dispatch:
 
 jobs:

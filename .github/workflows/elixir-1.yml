@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/elixir-1.yml'
       - 'elixir_lang/hello_world_1/**'
+  pull_request:
   workflow_dispatch:
 
 jobs:

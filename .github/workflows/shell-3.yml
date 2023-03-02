@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/shell-3.yml'
       - 'shell/hello_world_3/main.sh'
+  pull_request:
   workflow_dispatch:
 
 jobs:
