@@ -1,0 +1,23 @@
+name: ASM AMD64 Linux 1
+
+
+on:
+  push:
+    paths:
+      - '.github/workflows/asm-amd64-linux-1.yml'
+      - 'asm_amd64_linux/hello_world_1/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install packages
+        run: sudo apt install nasm make
+
+      - name: Hello World!
+        run: cd ./asm_amd64_linux/hello_world_1 && make && ./helloasm
