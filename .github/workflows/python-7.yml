@@ -1,0 +1,26 @@
+name: Python 7
+
+on:
+  push:
+    paths:
+      - '.github/workflows/python-7.yml'
+      - 'python/hello_world_7/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup latest Python
+        uses: actions/setup-python@v4
+        with:
+          check-latest: true
+          python-version: '3.x'
+
+      - name: Hello World!!
+        run: python3 ./python/hello_world_7/main.py
