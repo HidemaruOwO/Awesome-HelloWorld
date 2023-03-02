@@ -20,4 +20,4 @@ jobs:
         run: sudo apt install bf
         
       - name: Hello World!
-        run: brainfuck ./brainfuck/hello_world_1/main.bf
+        run: bf ./brainfuck/hello_world_1/main.bf
