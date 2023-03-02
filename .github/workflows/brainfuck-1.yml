@@ -1,8 +1,8 @@
 name: Brainfuck-1
-on:
- push:
-  - '.github/workflows/brainfuck-1.yml'
-  - 'brainfuck/hello_world_1/main.bf'
+ on:
+  push:
+   - '.github/workflows/brainfuck-1.yml'
+   - 'brainfuck/hello_world_1/main.bf'
   workflow_dispatch:
   
 jobs:
