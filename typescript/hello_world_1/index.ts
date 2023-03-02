@@ -1,6 +1,6 @@
-let hw = ["Ahel" + "El" + "o " + "Pw" + "Qor" + "Vl" + "Zd"];
+let hw_ary = ["Ahel" + "El" + "o " + "Pw" + "Qor" + "Vl" + "Zd"];
 
-hw.sort((start: string, end: string) => {
+hw_ary.sort((start: string, end: string) => {
    let arr: string[] = [];
    [start, end].forEach((str: string, _) => {
       arr.push(str.toLowerCase());
@@ -13,7 +13,7 @@ hw.sort((start: string, end: string) => {
    return 0;
 });
 
-let str = hw[0].replace(/[A-Z]/g, "");
+let str = hw_ary[0].replace(/[A-Z]/g, "");
 
 const rs = (string: string, array: string[]) => {
    array.forEach((s, _) => {
