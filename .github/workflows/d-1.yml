@@ -17,10 +17,15 @@ jobs:
       matrix:
         compiler: [dmd, ldc, dmd-beta, ldc-beta]
     steps:
-    
+  
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: 'Download dmd'
+        uses: dlang-community/setup-dlang@v1
+        with:
+          compiler: dmd-latest
+        
       - name: Compile
         run: |
           cd d/hello_world_1/
