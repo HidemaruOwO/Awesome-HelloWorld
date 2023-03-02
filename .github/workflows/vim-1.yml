@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/vim-1.yml'
-      - 'vim/hello_world_1/main.vim'
+      - 'vim/hello_world_1/**'
   workflow_dispatch:
 
 jobs:

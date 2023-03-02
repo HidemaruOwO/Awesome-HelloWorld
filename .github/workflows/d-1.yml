@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: D 1
+  compile:
+    name: Compile
     runs-on: ubuntu-latest
     steps:
   

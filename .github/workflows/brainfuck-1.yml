@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/brainfuck-1.yml'
-      - 'brainfuck/hello_world_1/main.bf'
+      - 'brainfuck/hello_world_1/**'
   workflow_dispatch:
   
 jobs:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
         
       - name: Install brainfuck
-        run: sudo apt install bf
+        run: sudo apt-get install -y bf
         
       - name: Hello World!
         run: bf ./brainfuck/hello_world_1/main.bf
