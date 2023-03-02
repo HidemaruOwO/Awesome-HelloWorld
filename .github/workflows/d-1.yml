@@ -17,15 +17,16 @@ jobs:
       matrix:
         compiler: [dmd, ldc, dmd-beta, ldc-beta]
     steps:
+    
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Compile
-        uses: |
+        run: |
           cd d/hello_world_1/
           dmd main.d
           
       - name: Hello World!!
-        uses: |
+        run: |
           cd d/hello_world_1/
           ./main
