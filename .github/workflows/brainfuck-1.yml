@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
   
 jobs:
-  build:
-    name: Build
+  run:
+    name: Run
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
