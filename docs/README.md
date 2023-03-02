@@ -36,7 +36,7 @@ I send my dear appreciation to them.
   - [@HidemaruOwO](https://github.com/HidemaruOwO)
   - [@WinLinux1028](https://github.com/WinLinux1028)
 - TypeScript - [@HidemaruOwO](https://github.com/HidemaruOwO)
-- JavaScrpt - [@MWindows99](https://github.com/MWindows99)
+- JavaScript - [@MWindows99](https://github.com/MWindows99)
 - HTML - [@Shiumano](https://github.com/Shiumano)
 - C - [@Shiumano](https://github.com/Shiumano)
 - D - [@777shuang](https://github.com/777shuang)
