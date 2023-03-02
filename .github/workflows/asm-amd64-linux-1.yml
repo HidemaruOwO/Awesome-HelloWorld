@@ -23,4 +23,4 @@ jobs:
         run: cd ./asm_amd64_linux/hello_world_1 && make
 
       - name: Hello World!
-        run:  ./helloasm
+        run:  ./asm_amd64_linux/hello_world_1/helloasm
