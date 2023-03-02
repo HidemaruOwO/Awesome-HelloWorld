@@ -39,6 +39,7 @@ I send my dear appreciation to them.
 - JavaScript - [@MWindows99](https://github.com/MWindows99)
 - HTML - [@Shiumano](https://github.com/Shiumano)
 - C - [@Shiumano](https://github.com/Shiumano)
+- C++ - [@ZozonTeq](https://github.com/zozonteq)
 - D - [@777shuang](https://github.com/777shuang)
 - Python
   - [@MWindows99](https://github.com/MWindows99)
@@ -52,6 +53,7 @@ I send my dear appreciation to them.
 - Nadeshiko3 - [@zozonteq](https://github.com/zozonteq)
 - Go - [@ringosan1974](https://github.com/ringosan1974)
 - Kubernetes - [@yabeenico](https://github.com/yabeenico)
+
 
 ### Status ✅
 [![Batch 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml)
@@ -86,4 +88,5 @@ I send my dear appreciation to them.
 [![Kubernetes 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kubernetes-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kubernetes-1.yml)
 [![D 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/d-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/d-1.yml)
 [![C 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml)
+[![C++ 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/cpp-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/cpp-1.yml)
 [![Brainfuck 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/brainfuck-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/brainfuck-1.yml)
