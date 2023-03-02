@@ -6,7 +6,6 @@ on:
     paths:
       - '.github/workflows/cpp-1.yml'
       - 'cpp/hello_world_1/**'
-  pull_request:
   workflow_dispatch:
 
 jobs:
