@@ -1,0 +1,23 @@
+name: Brainfuck-1
+
+
+on:
+  push:
+    paths:
+      - '.github/workflows/brainfuck-1.yml'
+      - 'brainfuck/hello_world_1/main.bf'
+  workflow_dispatch:
+  
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Install brainfuck
+        run: sudo apt install bf
+        
+      - name: Hello World!
+        run: bf ./brainfuck/hello_world_1/main.bf
