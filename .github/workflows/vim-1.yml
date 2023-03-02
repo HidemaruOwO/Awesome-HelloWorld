@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/vim-1.yml'
-      - 'vim/main.vim'
+      - 'vim/hello_world_1/**'
   workflow_dispatch:
 
 jobs:
@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Hello World!!
-        run: vim -es +'redir @a' +'source ./vim/main.vim' +'redir END' +'normal "ap' +%p +q!
+        run: vim -es +'redir @a' +'source ./vim/hello_world_1/main.vim' +'redir END' +'normal "ap' +%p +q!

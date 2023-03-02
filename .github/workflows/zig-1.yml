@@ -4,17 +4,22 @@ on:
   push:
     paths:
       - '.github/workflows/zig-1.yml'
-      - 'zig/main.zig'
+      - 'zig/hello_world_1/**'
   workflow_dispatch:
 
 jobs:
-  test:
+  run:
+    name: Run
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: recursive 
-      - uses: goto-bus-stop/setup-zig@v2.0.1
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Zig
+        uses: goto-bus-stop/setup-zig@v2.0.1
         with:
           version: master
-      - run: zig run ./zig/main.zig
+
+      - name: Hello World!!
+        run: zig run ./zig/hello_world_1/main.zig

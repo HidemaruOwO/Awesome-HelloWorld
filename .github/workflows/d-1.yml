@@ -1,0 +1,32 @@
+name: D 1
+
+on:
+  push:
+    paths:
+      - ".github/workflows/d-1.yml"
+      - "d/hello_world_1/**"
+  workflow_dispatch:
+
+jobs:
+  compile:
+    name: Compile
+    runs-on: ubuntu-latest
+    steps:
+  
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: 'Download dmd'
+        uses: dlang-community/setup-dlang@v1
+        with:
+          compiler: dmd-latest
+        
+      - name: Compile
+        run: |
+          cd d/hello_world_1/
+          dmd main.d
+          
+      - name: Hello World!!
+        run: |
+          cd d/hello_world_1/
+          ./main

@@ -1,0 +1,26 @@
+name: C 1
+
+
+on:
+  push:
+    paths:
+      - '.github/workflows/c-1.yml'
+      - 'c/hello_world_1/**'
+  workflow_dispatch:
+
+jobs:
+ compile:
+    name: Compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install gcc
+        run: sudo apt-get install -y gcc
+
+      - name: Compile
+        run: gcc ./c/hello_world_1/main.c
+
+      - name: Hello World!
+        run: ./a.out

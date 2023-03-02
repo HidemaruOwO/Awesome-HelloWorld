@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Nim 1
+  ompile:
+    name: Compile
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,16 +18,17 @@ jobs:
       - name: Setup Nim
         uses: jiro4989/setup-nim-action@v1
 
-      - name: Test "Hello World"
+      - name: Test
         run: |
           cd ./nim/hello_world_1/
           testament p 'tests/*.nim'
 
-      - name: Compile Hello World
+      - name: Compile
         run: |
           cd ./nim/hello_world_1/
           nim c -d:release src/main.nim
-      - name: Run Hello World
+
+      - name: Hello World!!
         run: |
           cd ./nim/hello_world_1/
           ./src/main
