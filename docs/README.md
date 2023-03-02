@@ -85,3 +85,4 @@ I send my dear appreciation to them.
 [![Go 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/go-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/go-1.yml)
 [![Kubernetes 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kubernetes-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/kubernetes-1.yml)
 [![D 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/d-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/d-1.yml)
+[![C 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml)
