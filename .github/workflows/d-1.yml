@@ -24,6 +24,7 @@ jobs:
         uses: |
           cd d/hello_world_1/
           dmd main.d
+          
       - name: Hello World!!
         uses: |
           cd d/hello_world_1/
