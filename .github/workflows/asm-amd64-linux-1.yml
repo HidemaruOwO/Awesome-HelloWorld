@@ -18,6 +18,9 @@ jobs:
 
       - name: Install packages
         run: sudo apt install nasm make lld
+        
+      - name: compile
+        run: cd ./asm_amd64_linux/hello_world_1 && make
 
       - name: Hello World!
-        run: cd ./asm_amd64_linux/hello_world_1 && make && ./helloasm
+        run:  ./helloasm
