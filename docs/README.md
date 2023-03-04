@@ -14,6 +14,16 @@ It outputs "Hello World!!" in various implementations in many languages
   
 </div>
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">🇺🇸English</th>
+      <th style="text-align:center"><a href="README.ja.md">🇯🇵日本語</a></th>
+    </tr>
+  </thead>
+</table>
+
+
 ## To the contributor 🤝
 
 While it is not strictly necessary, if you plan to contribute to this repository, it would be appreciated if you could write a GitHub Actions workflow that executes the code committed and outputs a 'Hello World' message. If there is no existing workflow, I can commit it myself as an individual.
@@ -91,3 +101,8 @@ I send my dear appreciation to them.
 [![C 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml)
 [![C++ 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/cpp-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/cpp-1.yml)
 [![Brainfuck 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/brainfuck-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/brainfuck-1.yml)
+
+### Special Thanks ✨
+
+- Mr.Comamoca ([@Comamoca](https://github.com/comamoca/))
+- Mr.Syuugo ([@s1204IT](https://github.com/s1204IT))
