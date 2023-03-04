@@ -1,6 +1,6 @@
 <div align="center">
 
-# 素晴らしいHelloWorld 😄
+# Awesome-HelloWorld 😄
 
 ![最終コミット](https://img.shields.io/github/last-commit/HidemaruOwO/Awesome-HelloWorld?style=flat-square)
 ![リポジトリのスター](https://img.shields.io/github/stars/HidemaruOwO/Awesome-HelloWorld?style=flat-square)
