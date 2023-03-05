@@ -42,6 +42,7 @@ I send my dear appreciation to them.
   - [@Shiumano](https://github.com/Shiumano)
 - Basic - [@Shiumano](https://github.com/Shiumano)
 - Brainfuck - [@MWindows99](https://github.com/MWindows99)
+- Ruby - [@Yegorov](https://github.com/Yegorov)
 - Rust
   - [@HidemaruOwO](https://github.com/HidemaruOwO)
   - [@WinLinux1028](https://github.com/WinLinux1028)
@@ -78,6 +79,7 @@ I send my dear appreciation to them.
 [![Python 5](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-5.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-5.yml)
 [![Python 6](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-6.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-6.yml)
 [![Python 7](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-7.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-7.yml)
+[![Ruby 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ruby-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ruby-1.yml)
 [![Rust 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml)
 [![Rust 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml)
 [![Rust 3](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-3.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-3.yml)
