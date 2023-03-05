@@ -23,4 +23,4 @@ jobs:
           python-version: '3.x'
 
       - name: Hello World!!
-        run: ./python/hello_world_7/main.py
+        run: python3 python/hello_world_7/main.py

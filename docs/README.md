@@ -14,6 +14,16 @@ It outputs "Hello World!!" in various implementations in many languages
   
 </div>
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">🇺🇸English</th>
+      <th style="text-align:center"><a href="README.ja.md">🇯🇵日本語</a></th>
+    </tr>
+  </thead>
+</table>
+
+
 ## To the contributor 🤝
 
 While it is not strictly necessary, if you plan to contribute to this repository, it would be appreciated if you could write a GitHub Actions workflow that executes the code committed and outputs a 'Hello World' message. If there is no existing workflow, I can commit it myself as an individual.
@@ -22,7 +32,7 @@ While it is not strictly necessary, if you plan to contribute to this repository
 
 I send my dear appreciation to them.
 
-- Workflows Support - [@s1204IT](https://github.com/s1204IT)
+- Workflows Support - [@s1204IT](https://github.com/s1204IT)　[@zozonteq](https://github.com/zozonteq)
 - Assembly amd64_linux - [@tomiy-tomiylab](https://github.com/tomiy-tomiylab)
 - Batch - [@s1204IT](https://github.com/s1204IT)
 - Java - [@s1204IT](https://github.com/s1204IT)
@@ -32,6 +42,7 @@ I send my dear appreciation to them.
   - [@Shiumano](https://github.com/Shiumano)
 - Basic - [@Shiumano](https://github.com/Shiumano)
 - Brainfuck - [@MWindows99](https://github.com/MWindows99)
+- Ruby - [@Yegorov](https://github.com/Yegorov)
 - Rust
   - [@HidemaruOwO](https://github.com/HidemaruOwO)
   - [@WinLinux1028](https://github.com/WinLinux1028)
@@ -68,6 +79,7 @@ I send my dear appreciation to them.
 [![Python 5](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-5.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-5.yml)
 [![Python 6](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-6.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-6.yml)
 [![Python 7](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-7.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/python-7.yml)
+[![Ruby 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ruby-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/ruby-1.yml)
 [![Rust 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-1.yml)
 [![Rust 2](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-2.yml)
 [![Rust 3](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-3.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/rust-3.yml)
@@ -91,3 +103,8 @@ I send my dear appreciation to them.
 [![C 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml)
 [![C++ 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/cpp-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/cpp-1.yml)
 [![Brainfuck 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/brainfuck-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/brainfuck-1.yml)
+
+### Special Thanks ✨
+
+- Mr.Comamoca ([@Comamoca](https://github.com/comamoca/))
+- Mr.Syuugo ([@s1204IT](https://github.com/s1204IT))

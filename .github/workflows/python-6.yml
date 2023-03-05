@@ -28,4 +28,4 @@ jobs:
         run: pip3 install uvicorn fastapi
 
       - name: Hello World!!
-        run: ./python/hello_world_6/main.py
+        run: python3 python/hello_world_6/main.py
