@@ -1,0 +1,25 @@
+name: Ruby 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/ruby-1.yml'
+      - 'ruby/hello_world_1/**'
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup latest Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 'head'
+
+      - name: Hello World!!
+        run: ruby ruby/hello_world_1/main.rb
