@@ -23,4 +23,6 @@ jobs:
           python-version: '3.x'
 
       - name: Hello World!!
-        run: ./run.sh
+        run: |
+          cd python/hello_world_8/
+          ./run.sh
