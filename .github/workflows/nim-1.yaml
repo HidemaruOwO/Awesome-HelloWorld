@@ -20,16 +20,13 @@ jobs:
         uses: jiro4989/setup-nim-action@v1
 
       - name: Test
-        run: |
-          cd ./nim/hello_world_1/
-          testament p 'tests/*.nim'
+        working-directory: nim/hello_world_1/
+        run: testament p 'tests/*.nim'
 
       - name: Compile
-        run: |
-          cd ./nim/hello_world_1/
-          nim c -d:release src/main.nim
+        working-directory: nim/hello_world_1/
+        run: nim c -d:release src/main.nim
 
       - name: Hello World!!
-        run: |
-          cd ./nim/hello_world_1/
-          ./src/main
+        working-directory: nim/hello_world_1/src/
+        run: ./main

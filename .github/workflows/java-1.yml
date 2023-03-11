@@ -27,6 +27,5 @@ jobs:
           javac java/hello_world_1/main.java
 
       - name: Hello World!!
-        run: |
-          cd java/hello_world_1/
-          java main
+        working-directory: java/hello_world_1/
+        run: java main

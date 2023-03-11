@@ -20,6 +20,5 @@ jobs:
         run: sudo apt-get install -y elixir
 
       - name: Hello World!!
-        run: |
-          cd ./elixir_lang/hello_world_1/
-          mix test
+        working-directory: elixir_lang/hello_world_1/
+        run: mix test

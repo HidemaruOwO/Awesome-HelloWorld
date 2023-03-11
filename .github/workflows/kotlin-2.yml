@@ -32,11 +32,9 @@ jobs:
           java-version: 11
 
       - name: Build
-        run: |
-          cd kotlin/hello_world_2/
-          ./gradlew build
+        working-directory: kotlin/hello_world_2/
+        run: ./gradlew build
 
       - name: Hello World!
-        run: |
-          cd kotlin/hello_world_2/
-          ./gradlew run
+        working-directory: kotlin/hello_world_2/
+        run: ./gradlew run

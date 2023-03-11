@@ -23,9 +23,8 @@ jobs:
           toolchain: stable
 
       - name: Build
-        run: |
-          cd ./rust/hello_world_1/
-          cargo build
+        working-directory: rust/hello_world_1/
+        run: cargo build
 
       - name: Hello World!!
         run: ./rust/hello_world_1/target/debug/hello_world_1
