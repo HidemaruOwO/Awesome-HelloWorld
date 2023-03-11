@@ -21,9 +21,8 @@ jobs:
         run: sudo apt-get install -y lld nasm
         
       - name: Build
-        run: |
-          cd asm_amd64_linux/hello_world_1/
-          make
+        working-directory: asm_amd64_linux/hello_world_1/
+        run: make
 
       - name: Hello World!
         run: ./asm_amd64_linux/hello_world_1/helloasm
