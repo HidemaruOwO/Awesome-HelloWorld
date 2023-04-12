@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '.github/workflows/malbolge-1.yml'
+      - 'malbolge/malbolge.c'
+      - 'malbolge/hello_world_1/**'
   workflow_dispatch:
 
 

@@ -66,7 +66,7 @@ I send my dear appreciation to them.
 - Nadeshiko3 : [@zozonteq](https://github.com/zozonteq)
 - Go : [@ringosan1974](https://github.com/ringosan1974)
 - Kubernetes : [@yabeenico](https://github.com/yabeenico)
-- Molbolge : [@s1204IT](https://github.com/s1204IT)
+- Malbolge : [@s1204IT](https://github.com/s1204IT)
 
 ### Status ✅
 [![Batch 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/batch-1.yml)
@@ -106,7 +106,8 @@ I send my dear appreciation to them.
 [![C 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/c-1.yml)
 [![C++ 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/cpp-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/cpp-1.yml)
 [![Brainfuck 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/brainfuck-1.yml/badge.svg)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/brainfuck-1.yml)
-[![Molbolge 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/molbolge-1.yml)
+[![Malbolge 1](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/malbolge-1.yml/badge.svg?event=push)](https://github.com/HidemaruOwO/Awesome-HelloWorld/actions/workflows/malbolge-1.yml)
+
 ### Special Thanks ✨
 
 - Mr.Comamoca ([@Comamoca](https://github.com/comamoca/))
