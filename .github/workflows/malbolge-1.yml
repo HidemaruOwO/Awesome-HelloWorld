@@ -19,7 +19,7 @@ jobs:
       - name: Compile Malbolge
         working-directory: malbolge
         run: |
-          sudo apt-get insall -y gcc
+          sudo apt-get install -y gcc
           gcc malbolge.c
 
       - name: Run
