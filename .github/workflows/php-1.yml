@@ -23,4 +23,9 @@ jobs:
           extensions: none
 
       - name: Hello World!!
-        run: php php/hello_world_1/index.p
+        run: php php/hello_world_1/index.php
+        
+        
+        
+        
+        
