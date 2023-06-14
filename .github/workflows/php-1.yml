@@ -1,0 +1,31 @@
+name: PHP 1
+
+on:
+  push:
+    paths:
+      - '.github/workflows/php-1.yml'
+      - 'php/hello_world_1/**'
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup PHP with PECL extension
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: none
+
+      - name: Hello World!!
+        run: php php/hello_world_1/index.php
+        
+        
+        
+        
+        
