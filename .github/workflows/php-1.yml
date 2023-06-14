@@ -2,8 +2,9 @@ name: PHP 1
 
 on:
   push:
-    - '.github/workflows/php-1.yml'
-    - 'php/hello_world_1/**'
+    paths:
+      - '.github/workflows/php-1.yml'
+      - 'php/hello_world_1/**'
   workflow_dispatch:
 
 jobs:
